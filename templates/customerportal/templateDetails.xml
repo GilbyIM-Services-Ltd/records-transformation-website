@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="template">
+	<name>Customer Portal</name>
+	<creationDate>2008-025-20</creationDate>
+	<author>Neal O'Kelly</author>
+	<authorEmail>neal@recordstransformation.co.uk</authorEmail>
+	<authorUrl>https://www.linkedin.com/in/nealokelly/</authorUrl>
+	<copyright>Records Transformation Ltd 2021</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Template based on Bootstrap's Carousel template - customised for Records Transformation Ltd.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+		<folder>favicons</folder>
+	</files>
+	<positions>
+		<position>nav-menu</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>menu</position>
+		<position>top</position>
+		<position>services</position>
+		<position>featurette_1</position>
+		<position>featurette_2</position>
+		<position>featurette_3</position>
+		<position>news</position>
+		<position>see_also</position>
+		<position>user4</position>
+		<position>social-sharing</position>
+		<position>footer</position>
+	</positions>
+</extension>

@@ -1,0 +1,57 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1140px;
+	}}
+
+.container a {
+	text-decoration: none;
+}
+
+.customer-portal-figcaption {
+	background-color: #eee;
+	padding: 10px;
+}
+
+
+/* Layout
+-------------------------------------------------- */
+.navbar-dark{
+	background-color: #000033 !important;
+}
+
+#site-logo{
+	display: inline-block;
+	height: 56px;
+	width: 56px;
+	background-image: url("../images/rt_logo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	margin-top: -.5rem;
+	margin-bottom: -.5rem;
+	margin-left: -.5rem;
+}
+
+.footer {
+  background-color: #555 !important;
+}
+
+.login-links {
+	margin-top: 1em;
+	list-style-type:none;
+	padding: 0;
+}
