@@ -26,3 +26,10 @@ Disallow: /logs/
 Disallow: /modules/
 Disallow: /plugins/
 Disallow: /tmp/
+
+# Non-Joomla directories - Added by NO'K 26/10/2021
+Disallow: /bookademo/
+Disallow: /competition/
+Disallow: /docs/
+Disallow: /email/
+Disallow: /unsubscribe/
