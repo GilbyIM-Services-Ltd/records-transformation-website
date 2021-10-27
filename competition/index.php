@@ -140,9 +140,9 @@ body {
 
 		<main style="margin-top:92px;" class="flex-shrink-0">
 			
-			<div id="articleBody" class="container d-flex justify-content-center">
+			<div class="container d-flex justify-content-center">
 				
-					<div>
+				<div style="width:75%;">
 		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 		<script>
 		  hbspt.forms.create({
@@ -150,8 +150,15 @@ body {
 			portalId: "8596800",
 			formId: "7aaea8d0-1a8d-41a5-930c-d9f8f790534e"
 		});
-		</script>
-					</div>
+		</script>				
+				
+				
+				
+				</div>
+				
+
+
+
 			 	
 			</div>
 
