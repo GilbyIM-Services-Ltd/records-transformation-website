@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <script type='text/javascript'>
+     google.charts.load('current', {
+       'packages': ['geochart'],
+       // Note: Because markers require geocoding, you'll need a mapsApiKey.
+       // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+       'mapsApiKey': 'AIzaSyB6h-4nGLprHjlcoP9dDAiNeKKuJP2KGGg'
+     });
+     google.charts.setOnLoadCallback(drawMarkersMap);
+
+      function drawMarkersMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['City',   'Schools'],
+        ['Camden',      3],
+        ['Wirral',    1],
+		['Liverpool',    1],
+		['Leicester',    2]
+      ]);
+//https://developers.google.com/chart/interactive/docs/gallery/geochart
+      var options = {
+        region: 'GB',
+		sizeAxis: { minValue: 1, maxValue: 12, minSize: 3 },
+        displayMode: 'markers',
+		//defaultColor: '#7BBA42',
+		colorAxis: {minValue: 0,  colors: ['#7BBA42', '#7BBA42']},
+		legend: 'none',
+		//magnifyingGlass: {enable: true, zoomFactor: 7.5},
+		keepAspectRatio: true,
+		resolution: 'countries'
+		//width: 400
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('geo_innerGB'));
+      chart.draw(data, options);
+    };
+    </script>
+	  
+	<style>
+	  #geo_outer {width:550px;height:550px;overflow:hidden;}
+#geo_innerGB {
+    width:1100px;
+    margin-top:-100px;
+    margin-left:-235px;
+}
+
+	  
+	  
+	  </style>
+  </head>
+  <body>
+    <div id="geo_outer"><div id="geo_innerGB"></div></div>
+  </body>
+</html>
